@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Treino</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="container">
+    <h1>Task lists</h1>
+    <p>Please, add your tasks!</p>
+    <input type="text" id="inputTarefa"  placeholder="Write your task">
+    <button onclick="adicionarTarefa()">Add your list!</button>
+    <button onclick="limparLista()" id="limparLista" class="botao_lista hidden">Clear everything</button>
+
+    <p id="mensagem"></p>
+    <ul id="listaTarefas"> </ul>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
