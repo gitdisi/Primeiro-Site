@@ -138,19 +138,23 @@ button.editar:hover {
 
     50% {
         transform: 1.05;
-        background-color: rgb(115, 236, 115);
+        background-color: rgb(246, 83, 83);
     }
 
     100% {
         transform: scale(1.0);
-        background-color: rgb(133, 1, 1);
+        background-color: red;
     }
 }
 
 .mensagem__success {
     animation: bueno 2s infinite;
+    border-radius: 20px;
+    color: black;
 }
 
 .mensagem__error {
     animation: buena 2s infinite;
+    border-radius: 20px;
+    color: white;
 }
